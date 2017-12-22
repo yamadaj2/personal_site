@@ -12,5 +12,12 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery.easing
+//= require jquery.easing.compatibility
+//= require popper
+//= require bootstrap
+//= require bootstrap-sprockets
+//= require bootstrap.bundle
+//= require grayscale
 //= require turbolinks
 //= require_tree .
