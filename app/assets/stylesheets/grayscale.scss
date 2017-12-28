@@ -197,9 +197,20 @@ a {
   padding-bottom: 150px;
 }
 
+.music-background {
+  background: url('music-notes.JPG') no-repeat center center scroll;
+}
+
+.photography-background {
+  background: url('camera.JPG') no-repeat center center scroll;
+}
+
+.coding-background {
+  background: url('jQuery-code.jpg') no-repeat center center scroll;
+}
+
 .download-section {
   color: white;
-  background: url('jQuery-code.jpg') no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
