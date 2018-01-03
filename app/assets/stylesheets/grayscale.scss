@@ -245,13 +245,11 @@ a {
 }
 
 .btn-default {
-  color: $primary;
-  border: 1px solid $primary;
-  background-color: transparent;
+  color: white;
+  background-color: $primary;
   &:focus,
   &:hover {
     color: black;
-    border: 1px solid $primary;
     outline: none;
     background-color: $primary;
   }
