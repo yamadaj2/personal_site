@@ -1,5 +1,50 @@
 <%= render 'layouts/navbar' %>
 <!--TODO description of myself and skills so far.
  <!--TODO software image-->
-<!--TODO-->
+<section class="content-section">
+  <div class="container">
+    <div class="row pull-right col-lg-6">
+      <h2>Object Orientated Game</h2>
+    </div>
+    <div class="col-lg-6">
+      <p>
+        This is a simple Object Orientated Game used as an exercise to become more fluent with many Object
+        Orientated Concepts. Much effort was put in to ensure the code was clean as it could be. This includes
+        using <em>intent revealing</em> variable and method names, <em>small single purpose</em> methods, neatly organised classes, DRY code and unit tests.
+      </p>
+      <p>
+        Much of the practices on clean code was taken from the book <cite>"Clean Code"</cite> by Robert C. Martin
+      </p>
+      <p>
+        View the source code of this project on my GitHub account <%= link_to 'here', 'https://github.com/yamadaj2/object_orientated_game', target: '_blank' %>
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="content-section">
+  <div class="container">
+    <div class="row">
+      <h2>Rails Blog</h2>
+    </div>
+  </div>
+</section>
+
+<section class="content-section">
+  <div class="container">
+    <div class="row pull-right col-lg-4">
+      <h2>Open Source Project</h2>
+    </div>
+    <div class="col-lg-8 mx-auto">
+      <p>
+
+      </p>
+    </div>
+  </div>
+</section>
+
+<div class="container text-center">
+  <%= link_to 'Back', root_path, class: "btn btn-default btn-lg" %>
+</div>
+
 <%= render 'layouts/footer' %>
