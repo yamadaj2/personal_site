@@ -290,6 +290,9 @@ a {
   text-transform: uppercase;
 
   border-radius: 0;
+  &:hover {
+    color: #ffffff;
+  }
 }
 
 .btn-default {
