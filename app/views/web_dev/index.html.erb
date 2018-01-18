@@ -3,57 +3,71 @@
  <!--TODO software image-->
 <section class="content-section hobby-intro">
   <div class="container">
-    <div class="row">
-      <h2 class="text-center col-lg-12">Web Development Projects</h2>
-      <p>Lorenm IpsumLorenm IpsumLorenm Ipsum Lorenm IpsumLorenm IpsumLorenm IpsumLorenm Ipsum
-        Lorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm Ipsum
-        Lorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm Ipsum
-        Lorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm Ipsum
-      </p>
-    </div>
-  </div>
-</section>
-
-<section>
-  <div class="container">
-    <div class="row pull-right col-lg-6">
-      <h2>Object Orientated Game</h2>
-    </div>
-    <div class="col-lg-6">
-      <p>
-        This is a simple Object Orientated Game written in <span class="ruby-color">Ruby</span> used as an exercise to become more fluent with many Object
-        Orientated Concepts. Much effort was put in to ensure the code was clean as it could be. This includes
-        using <em>intent revealing</em> variable and method names, <em>small single purpose</em> methods, neatly organised classes, DRY code and unit tests.
-      </p>
-      <p>
-        Much of the practices on clean code was taken from the book <cite>"Clean Code"</cite> by Robert C. Martin
-      </p>
-      <p>
-        View the source code of this project on my GitHub account <%= link_to 'here', 'https://github.com/yamadaj2/object_orientated_game', target: '_blank' %>
-      </p>
-    </div>
+    <h2 class="text-center">Web Development Projects</h2>
+    <p>Lorenm IpsumLorenm IpsumLorenm Ipsum Lorenm IpsumLorenm IpsumLorenm IpsumLorenm Ipsum
+      Lorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm Ipsum
+      Lorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm Ipsum
+      Lorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm Ipsum
+    </p>
   </div>
 </section>
 
 <section class="content-section">
   <div class="container">
     <div class="row">
-      <h2>Rails Blog</h2>
+      <div class="col-lg-12 text-center">
+        <h2>My Projects</h2>
+      </div>
     </div>
 
-  </div>
-</section>
+    <div class="row">
+      <div class="card col-lg-3">
+        <%= image_tag 'camera.JPG', alt: 'card image', class: 'card-img-top' %>
+        <div class="card-body">
+          <h5 class="card-title">Object Orientated Game</h5>
+          <p class="card-text">
+            A simple Object Orientated, turn based Game, used as an exercise to become more fluent with many Object Orientated Concepts.
+          </p>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Written in <span class="ruby-color">Ruby</span></li>
+            <li class="list-group-item">
+              <%= link_to 'View on GitHub', 'https://github.com/yamadaj2/object_orientated_game', target: '_blank', class: 'btn btn-primary' %></li>
+          </ul>
+        </div>
+      </div>
 
-<section class="content-section">
-  <div class="container">
-    <div class="row pull-right col-lg-4">
-      <h2>Open Source Project</h2>
-    </div>
-    <div class="col-lg-8 mx-auto">
-      <p>
+      <div class="card col-lg-3">
+        <%= image_tag 'pencil.jpg', alt: 'card image', class: 'card-img-top' %>
+        <div class="card-body">
+          <h5 class="card-title">Blog</h5>
+          <p class="card-text">
+            This is an example app demonstrating CRUD functionality using Ruby on Rails.
+          </p>
+          <p class="card-text">
+            The app has sign up feature and allows authorised users to create, read, update posts and comments.
+            It is styled using Bootstrap
+          </p>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Written with <span class="ruby-color">Ruby on Rails</span></li>
+            <li class="list-group-item">
+              <%= link_to 'View on GitHub', 'https://github.com/yamadaj2/object_orientated_game', target: '_blank', class: 'btn btn-primary' %>
+            </li>
+          </ul>
+        </div>
+      </div>
 
-      </p>
+      <div class="card col-lg-3">
+        <%= image_tag 'camera.JPG', alt: 'card image', class: 'card-img-top' %>
+        <div class="card-body">
+          <h5 class="card-title">Open Source Project</h5>
+          <p class="card-text">
+            This is a simple Object Orientated Game written in <span class="ruby-color">Ruby</span> used as an exercise to become more fluent with many Object Orientated Concepts.
+          </p>
+          <%= link_to 'View on GitHub', 'https://github.com/yamadaj2/object_orientated_game', target: '_blank', class: 'btn btn-primary' %>
+        </div>
+      </div>
     </div>
+
   </div>
 </section>
 
