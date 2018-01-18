@@ -223,7 +223,12 @@ a {
 
 .web-dev-heading {
   background: url('developer-desk.jpg') no-repeat center center scroll;
-  color:black;
+  color:#000;
+  text-shadow:
+          -1px -1px 0 #ffffff,
+          1px -1px 0 #ffffff,
+          -1px 1px 0 #ffffff,
+          1px 1px 0 #ffffff;
 }
 
 .project-div-wrapper {
