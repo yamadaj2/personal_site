@@ -225,6 +225,27 @@ a {
   background-color: #B2B2B6;
 }
 
+.project-div-wrapper {
+  width: 300px;
+  margin: 30px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.project-div {
+  background: #fff;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  width: 300px;
+  margin: 20px 0;
+  position: relative;
+  display: inline-block;
+  height: 475px;
+  overflow: hidden;
+  border: 1px solid #ebebeb;
+}
+
 .hobby-section {
   color: white;
   background-color: black;
