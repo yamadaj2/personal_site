@@ -1,16 +1,22 @@
 <%= render 'layouts/navbar' %>
-<!--TODO description of myself and skills so far.
- <!--TODO software image-->
-<section class="content-section hobby-intro">
-  <div class="container">
-    <h2 class="text-center">Web Development Projects</h2>
-    <p>Lorenm IpsumLorenm IpsumLorenm Ipsum Lorenm IpsumLorenm IpsumLorenm IpsumLorenm Ipsum
-      Lorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm Ipsum
-      Lorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm Ipsum
-      Lorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm Ipsum
-    </p>
+<!--TODO description of myself and skills so far. -->
+
+<header class="masthead web-dev-heading">
+  <div class="intro-body">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Web Development Projects</h2>
+          <p class="intro-text">Lorenm IpsumLorenm IpsumLorenm Ipsum Lorenm IpsumLorenm IpsumLorenm IpsumLorenm Ipsum
+            Lorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm Ipsum
+            Lorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm Ipsum
+            Lorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm IpsumLorenm Ipsum
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
-</section>
+</header>
 
 <section class="content-section">
   <div class="container">
@@ -22,11 +28,11 @@
 
     <div class="row">
       <div class="card col-lg-3">
-        <%= image_tag 'camera.JPG', alt: 'card image', class: 'card-img-top' %>
+        <%= image_tag 'samurai_and_ninja.jpg', alt: 'card image', class: 'card-img-top' %>
         <div class="card-body">
-          <h5 class="card-title">Object Orientated Game</h5>
+          <h5 class="card-title">Ninja vs. Samurai</h5>
           <p class="card-text">
-            A simple Object Orientated, turn based Game, used as an exercise to become more fluent with many Object Orientated Concepts.
+            An object orientated, RPG console application, used as an exercise to become more fluent with many OOP Concepts.
           </p>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">Written in <span class="ruby-color">Ruby</span></li>
@@ -59,7 +65,6 @@
           <h5 class="card-title">My Personal Site</h5>
           <p class="card-text">
             This site you are currently viewing is a <span class="ruby-color">Ruby on Rails</span> application.
-
           </p>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">Written with <span class="ruby-color">Ruby on Rails</span></li>
@@ -67,7 +72,6 @@
               <%= link_to 'View on GitHub', 'https://github.com/yamadaj2/alpha-blog', target: '_blank', class: 'btn btn-primary' %>
             </li>
           </ul>
-
         </div>
       </div>
     </div>
