@@ -89,6 +89,10 @@ a {
     text-shadow: $text-shadow-theme;
   }
 
+  a:hover {
+    color: $primary;
+  }
+
   .navbar-nav {
     .nav-item {
       -webkit-transition: background 0.3s ease-in-out;
