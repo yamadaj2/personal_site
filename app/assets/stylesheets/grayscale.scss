@@ -233,6 +233,10 @@ a {
   background: url('code-image.png') no-repeat center center scroll;
 }
 
+.web-dev-cover {
+  text-shadow: $black-text-shadow;
+}
+
 .web-dev-heading {
   display: table;
 
@@ -243,11 +247,7 @@ a {
   text-align: center;
 
   color:#000;
-  text-shadow:
-          -1px -1px 0 #ffffff,
-          1px -1px 0 #ffffff,
-          -1px 1px 0 #ffffff,
-          1px 1px 0 #ffffff;
+  text-shadow: $white-text-shadow;
   background: url('developer-desk.jpg') no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
