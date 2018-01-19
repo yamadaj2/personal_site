@@ -47,7 +47,7 @@ p {
 
 .arrow{
   color: #ffffff;
-  text-shadow: $text-shadow-theme;
+  text-shadow: $black-text-shadow;
   &:hover {color: $primary;}
 }
 
@@ -82,11 +82,12 @@ a {
   }
   .navbar-brand {
     font-weight: 700;
+    font-size: 24px;
   }
 
   a {
     color: #ffffff;
-    text-shadow: $text-shadow-theme;
+    text-shadow: $black-text-shadow;
   }
 
   a:hover {
