@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   root 'about#index'
   # You can have the root of your site routed with "root"
   get 'development', to: 'web_dev#index'
+  get 'music', to: 'music#index'
   # root 'welcome#index'
 
   # Example of regular route:
