@@ -553,6 +553,7 @@ mark,
 }
 
 .img-thumbnail {
+    color: black;
     padding: 0.25rem;
     background-color: #fff;
     border: 1px solid #ddd;
