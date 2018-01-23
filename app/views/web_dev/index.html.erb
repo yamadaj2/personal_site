@@ -1,5 +1,4 @@
 <%= render 'layouts/navbar' %>
-<!--TODO description of myself and skills so far. -->
 
 <header class="web-dev-heading">
   <div class="intro-body">
@@ -12,9 +11,9 @@
           </p>
         </div>
       </div>
-        <a href="#my-projects" class="arrow js-scroll-trigger">
-          <i class="fa fa-arrow-circle-o-down animated fa-4x"></i>
-        </a>
+      <a href="#my-projects" class="arrow js-scroll-trigger">
+        <i class="fa fa-arrow-circle-o-down animated fa-4x"></i>
+      </a>
     </div>
   </div>
 </header>
@@ -26,9 +25,8 @@
         <h2 id="my-projects">My Projects</h2>
       </div>
     </div>
-
     <div class="row">
-      <div class="card col-lg-3">
+      <div class="card col-lg-5">
         <%= image_tag 'samurai_and_ninja.jpg', alt: 'card image', class: 'card-img-top' %>
         <div class="card-body">
           <h5 class="card-title">Ninja vs. Samurai</h5>
@@ -42,8 +40,7 @@
           </ul>
         </div>
       </div>
-
-      <div class="card col-lg-3">
+      <div class="card col-lg-5">
         <%= image_tag 'pencil.jpg', alt: 'card image', class: 'card-img-top' %>
         <div class="card-body">
           <h5 class="card-title">Alpha Blog</h5>
@@ -59,8 +56,12 @@
           </ul>
         </div>
       </div>
+    </div>
+  </div>
 
-      <div class="card col-lg-3">
+  <div class="container">
+    <div class="row">
+      <div class="card col-lg-5">
         <%= image_tag 'site-header.png', alt: 'card image', class: 'card-img-top' %>
         <div class="card-body">
           <h5 class="card-title">My Personal Site</h5>
