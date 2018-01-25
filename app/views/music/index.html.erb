@@ -31,12 +31,12 @@
       <div class="col-sm-6 col-md-6">
         <div class="img-thumbnail">
           <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fIoKG9-ZnJw" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <div id="YTvideo1"></div>
           </div>
           <div class="caption">
             <h3>Bach's Prelude in C</h3>
             <p>
-              One of Bach's well known and easily accessible preludes has made this piece a must learn for piano students. In addition to this, this piece is a popular choice for wedding ceremonies.</p>
+              One of Bach's most well known and easily accessible preludes has made this piece a must learn for piano students. In addition to this, this piece is a popular choice for wedding ceremonies.</p>
             <p>
               Using <%= link_to 'Ableton', 'https://en.wikipedia.org/wiki/Ableton_Live', target: '_blank' %>, <%= link_to 'OBS', 'https://en.wikipedia.org/wiki/Open_Broadcaster_Software', target: '_blank' %> and <%= link_to 'Synthesia', 'https://en.wikipedia.org/wiki/Synthesia', target: '_blank' %> I recorded my performance and put together a visual tutorial as to how it is played so the viewer can learn to play it for themselves. Have a little watch yourself.
             </p>
@@ -53,7 +53,7 @@
       <div class="col-sm-6 col-md-6">
         <div class="img-thumbnail">
           <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ql5sYzq7xds" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <div id="YTvideo2"></div>
           </div>
           <div class="caption">
             <h3>Where Is My Mind?</h3>
@@ -64,16 +64,19 @@
               This video belongs to a separate YouTube channel of mine which is solely for piano solo videos. To view more of my piano solo videos on YouTube, click on the button below.
             </p>
             <div>
-              <%= link_to 'View on YouTube', 'https://www.youtube.com/watch?v=ql5sYzq7xds&list=UUAiArHrQ_ypBh5ygHZWkyUA', target: '_blank', class: 'btn btn-default' %>
+              <%= link_to 'View on YouTube', 'https://www.youtube.com/watch?v=fIoKG9-ZnJw&list=UUJCLykUyNiUHtK-2T6wjkow', target: '_blank', class: 'btn btn-default' %>
             </div>
           </div>
         </div>
       </div>
+    </div>
 
+    <div class="row">
       <div class="col-sm-6 col-md-6">
         <div class="img-thumbnail">
           <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/146506412&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe id="sc-player1" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/146506412&amp;color=%23060806&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true">
+            </iframe>
           </div>
           <div class="caption">
             <h3>Comptine D'un Autre Été</h3>
@@ -81,11 +84,11 @@
               Originally written by Yann Tiersen for the film Amélie (2001), Comptine D'un Autre Été remains to this day, an extremely popular piece. It's minimalist style has made this piece a popular choice to learn on the piano and a pleasant one to listen to. My soundcloud track alone has over a <strong>quarter of a million listens.</strong>
             </p>
             <p>
-              I have also created a synthesia version of this piece. Visit my Synthesia channel on YouTube to watch it. To listen to more of my piano solo tracks on Soundcloud, click on the button below.
+              I have also created a <%= link_to 'synthesia version of this piece', 'https://www.youtube.com/watch?v=5nExi3cezKg', target: '_blank' %>. To listen to more of my piano solo tracks on Soundcloud, click on the button below.
             </p>
-            <div>
-              <%= link_to 'Listen on Soundcloud', 'https://soundcloud.com/yamadaj2', target: '_blank', class: 'btn btn-default' %>
-            </div>
+          </div>
+          <div>
+            <%= link_to 'Listen on Soundcloud', 'https://soundcloud.com/yamadaj2', target: '_blank', class: 'btn btn-default' %>
           </div>
         </div>
       </div>
