@@ -20,4 +20,6 @@
 //= require bootstrap.bundle
 //= require grayscale
 //= require turbolinks
+//= require soundcloud-widget-api
+//= require iframe-handlers
 //= require_tree .
