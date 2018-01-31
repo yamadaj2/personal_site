@@ -1,5 +1,5 @@
 <%= render 'layouts/navbar' %>
-<!-- TODO description of myself and skills so far. -->
+<!--TODO Only load photos that user is currently viewing for better load times-->
 
 <header class="photography-heading">
   <div class="intro-body">
@@ -8,7 +8,7 @@
         <div class="col-lg-8 mx-auto">
           <h2>My Photography</h2>
           <p class="intro-text">
-           I am a photography enthusiast. Photography is a relatively new hobby of mine. I love taking shots at night in urban areas.
+            I am a photography enthusiast. Photography is a relatively new hobby of mine. I love taking shots at night in urban areas.
           </p>
           <p class="intro-text">
             Scroll down for a peek at some of my photos to date.
@@ -23,31 +23,33 @@
 </header>
 
 <section class="content-section">
-  <div class="container">
+  <div class="gallery container">
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 id="my-photo-projects">My Photos</h2>
       </div>
-      <div class="col-sm-12 col-md-12">
-          <%= image_tag 'sea-moon.JPG', alt: "moonlit sea", class: 'img-thumbnail' %>
+      <div class="col-sm-12 col-md-12 photo-div">
+        <%= image_tag 'sky-blue-sea.jpg', alt: "boat sailing on blue sea", class: 'photo-div' %>
       </div>
-      <div class="col-sm-6 col-md-6">
-          <%= image_tag 'archway.JPG', alt: "view down an archway", class: 'img-thumbnail' %>
+      <div class="col-sm-6 col-md-6 photo-div">
+        <%= image_tag 'archway.JPG', alt: "view down an archway", class: 'photo-div' %>
+        <%= image_tag 'dolls.JPG', alt: "side view of a doll with blonde hair", class: 'photo-div' %>
+        <%= image_tag 'spire.JPG', alt: "streaks of vehicle lights in city", class: 'photo-div' %>
+        <%= image_tag 'disc-jockey.JPG', alt: "DJ using electronic equipment with stage fog", class: 'photo-div' %>
+        <%= image_tag 'stag.JPG', alt: "Head shot of stag Grazing", class: 'photo-div' %>
+        <%= image_tag 'love-eat-sign.JPG', alt: "Bright light signs that says eat,love,live", class: 'photo-div' %>
+        <%= image_tag 'shells.jpg', alt: "Close up of shells and sandy on beach", class: 'photo-div' %>
       </div>
-      <div class="col-sm-6 col-md-6">
-          <%= image_tag 'car-lights.JPG', alt: " streaks of car lights on road", class: 'img-thumbnail' %>
-          <%= image_tag 'piano.JPG', alt: "side view of piano keys", class: 'img-thumbnail' %>
-      </div>
-      <div class="col-sm-6 col-md-6">
-          <%= image_tag 'spire.JPG', alt: "streaks of vehicle lights in city", class: 'img-thumbnail' %>
-      </div>
-      <div class="col-sm-6 col-md-6">
-        <%= image_tag 'train-tracks.JPG', alt: "ground shot looking down train tracks", class: 'img-thumbnail' %>
+      <div class="col-sm-6 col-md-6 photo-div">
+        <%= image_tag 'piano.JPG', alt: "side view of piano keys", class: 'photo-div' %>
+        <%= image_tag 'sea-moon.JPG', alt: "moonlit sea", class: 'photo-div' %>
+        <%= image_tag 'car-lights.JPG', alt: "streaks of car lights on road", class: 'photo-div' %>
+        <%= image_tag 'train-tracks.JPG', alt: "ground shot looking down train tracks", class: 'photo-div' %>
+        <%= image_tag 'basilica.JPG', alt: "Night shot of basilica", class: 'photo-div' %>
+        <%= image_tag 'flowers.JPG', alt: "Close up of a red and white flower against a blurred backdrop", class: 'photo-div' %>
+        <%= image_tag 'wedding-music.JPG', alt: "bottom up view of wedding sheet music", class: 'photo-div' %>
       </div>
     </div>
-  </div>
-  <div class="container text-center">
-    <%= link_to 'View on EyeEm', 'https://www.eyeem.com/u/johnnyyamada', target: '_blank', class: 'btn btn-default btn-large' %>
   </div>
 </section>
 <!--todo add pagination-->
