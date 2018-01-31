@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1ecda1b-2c6d-49c3-826c-b8dce92bc673" name="Default" comment="committed gemfile.lock and database.yml">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+    <list default="true" id="a1ecda1b-2c6d-49c3-826c-b8dce92bc673" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -69,8 +68,8 @@
       <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="47" column="14" lean-forward="true" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+            <state relative-caret-position="356">
+              <caret line="57" column="3" lean-forward="true" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -80,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+              <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -494,14 +493,7 @@
       <workItem from="1517177422678" duration="327000" />
       <workItem from="1517340443582" duration="9094000" />
       <workItem from="1517386840307" duration="2103000" />
-      <workItem from="1517390200320" duration="14148000" />
-    </task>
-    <task id="LOCAL-00113" summary="removed music projects class">
-      <created>1516659313544</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1516659313544</updated>
+      <workItem from="1517390200320" duration="14209000" />
     </task>
     <task id="LOCAL-00114" summary="Compressed Images">
       <created>1516662348948</created>
@@ -839,11 +831,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517410563975</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary="grouped pg in production block and sqlite in development block">
+      <created>1517411074099</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1517411074099</updated>
+    </task>
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227515000" />
+    <option name="totallyTimeSpent" value="227576000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -933,7 +932,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Removed map" />
     <MESSAGE value="Spread icons apart from each other" />
     <MESSAGE value="Removed contact arrow entirely. Added links to one list item" />
     <MESSAGE value="Replaced anchor tags with Rails helper link_to tags" />
@@ -958,7 +956,8 @@
     <MESSAGE value="added version number to pg gem" />
     <MESSAGE value="removed version number to pg gem" />
     <MESSAGE value="committed gemfile.lock and database.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="committed gemfile.lock and database.yml" />
+    <MESSAGE value="grouped pg in production block and sqlite in development block" />
+    <option name="LAST_COMMIT_MESSAGE" value="grouped pg in production block and sqlite in development block" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1253,15 +1252,15 @@
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="47" column="14" lean-forward="true" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+        <state relative-caret-position="356">
+          <caret line="57" column="3" lean-forward="true" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
           <folding />
         </state>
       </provider>
