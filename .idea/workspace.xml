@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1ecda1b-2c6d-49c3-826c-b8dce92bc673" name="Default" comment="removed comments">
+    <list default="true" id="a1ecda1b-2c6d-49c3-826c-b8dce92bc673" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/grayscale.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/grayscale.scss" />
       <change beforePath="$PROJECT_DIR$/app/views/about/index.html.erb" afterPath="$PROJECT_DIR$/app/views/about/index.html.erb" />
@@ -32,8 +32,8 @@
           <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/about/index.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="835">
-                  <caret line="89" column="29" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="89" selection-end-column="29" />
+                <state relative-caret-position="385">
+                  <caret line="59" column="25" lean-forward="true" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
@@ -43,17 +43,17 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="grayscale.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="grayscale.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/grayscale.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="509">
-                  <caret line="395" column="0" lean-forward="false" selection-start-line="395" selection-start-column="0" selection-end-line="395" selection-end-column="0" />
+                <state relative-caret-position="374">
+                  <caret line="386" column="0" lean-forward="true" selection-start-line="386" selection-start-column="0" selection-end-line="386" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/_variables.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="75">
@@ -146,9 +146,9 @@
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/grayscale.scss" />
         <option value="$PROJECT_DIR$/app/views/about/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/_variables.scss" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/grayscale.scss" />
       </list>
     </option>
   </component>
@@ -413,14 +413,7 @@
       <workItem from="1517340443582" duration="9094000" />
       <workItem from="1517386840307" duration="2103000" />
       <workItem from="1517390200320" duration="16096000" />
-      <workItem from="1517843312093" duration="10996000" />
-    </task>
-    <task id="LOCAL-00124" summary="Adjusted nav bar to render properly on iPad screen">
-      <created>1516718802354</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1516718802354</updated>
+      <workItem from="1517843312093" duration="11156000" />
     </task>
     <task id="LOCAL-00125" summary="corrected punctuation">
       <created>1516722914716</created>
@@ -758,11 +751,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517934414430</updated>
     </task>
-    <option name="localTasksCounter" value="173" />
+    <task id="LOCAL-00173" summary="Added semi-transparent background to web-dev cover. Removed text-shadow approach">
+      <created>1517941788052</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1517941788052</updated>
+    </task>
+    <option name="localTasksCounter" value="174" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240459000" />
+    <option name="totallyTimeSpent" value="240619000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -852,7 +852,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added new images and layout" />
     <MESSAGE value="consolidated styling" />
     <MESSAGE value="added todo" />
     <MESSAGE value="Compressed images for faster load times" />
@@ -877,7 +876,8 @@
     <MESSAGE value="removed comments from database.yml" />
     <MESSAGE value="Removed duplicate default DB" />
     <MESSAGE value="removed comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed comments" />
+    <MESSAGE value="Added semi-transparent background to web-dev cover. Removed text-shadow approach" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added semi-transparent background to web-dev cover. Removed text-shadow approach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1159,26 +1159,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/grayscale.scss">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="395" column="0" lean-forward="false" selection-start-line="395" selection-start-column="0" selection-end-line="395" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/about/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="835">
-          <caret line="89" column="29" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="89" selection-end-column="29" />
+        <state relative-caret-position="385">
+          <caret line="59" column="25" lean-forward="true" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/_variables.scss">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/grayscale.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="374">
+          <caret line="386" column="0" lean-forward="true" selection-start-line="386" selection-start-column="0" selection-end-line="386" selection-end-column="0" />
           <folding />
         </state>
       </provider>
