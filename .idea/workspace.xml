@@ -69,8 +69,8 @@
       <file leaf-file-name="database.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -424,14 +424,7 @@
       <workItem from="1517340443582" duration="9094000" />
       <workItem from="1517386840307" duration="2103000" />
       <workItem from="1517390200320" duration="16096000" />
-      <workItem from="1517843312093" duration="4611000" />
-    </task>
-    <task id="LOCAL-00122" summary="changed 3 columns to 2 columns">
-      <created>1516716519602</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1516716519602</updated>
+      <workItem from="1517843312093" duration="4783000" />
     </task>
     <task id="LOCAL-00123" summary="changed 3 columns to 2 columns on web dev page">
       <created>1516718222257</created>
@@ -769,11 +762,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517934017549</updated>
     </task>
-    <option name="localTasksCounter" value="171" />
+    <task id="LOCAL-00171" summary="Removed duplicate default DB">
+      <created>1517934252993</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1517934252993</updated>
+    </task>
+    <option name="localTasksCounter" value="172" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="234074000" />
+    <option name="totallyTimeSpent" value="234246000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -863,7 +863,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added a todo" />
     <MESSAGE value="ensured brand and mobile nav are on same line on smaller devices" />
     <MESSAGE value="Added new images and layout" />
     <MESSAGE value="consolidated styling" />
@@ -888,7 +887,8 @@
     <MESSAGE value="Reverted back to working version" />
     <MESSAGE value="this DB config runs locally" />
     <MESSAGE value="removed comments from database.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed comments from database.yml" />
+    <MESSAGE value="Removed duplicate default DB" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed duplicate default DB" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1185,8 +1185,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
