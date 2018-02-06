@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a1ecda1b-2c6d-49c3-826c-b8dce92bc673" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/views/music/index.html.erb" afterPath="$PROJECT_DIR$/app/views/music/index.html.erb" />
+      <change beforePath="$PROJECT_DIR$/app/views/photography/index.html.erb" afterPath="$PROJECT_DIR$/app/views/photography/index.html.erb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -26,11 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/music/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
               <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/photography/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -147,7 +157,6 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/iframe-handlers.js" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/photography/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
         <option value="$PROJECT_DIR$/README.rdoc" />
         <option value="$PROJECT_DIR$/Gemfile" />
@@ -160,6 +169,7 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/_variables.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/grayscale.scss" />
         <option value="$PROJECT_DIR$/app/views/music/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/photography/index.html.erb" />
       </list>
     </option>
   </component>
@@ -425,13 +435,6 @@
       <workItem from="1517386840307" duration="2103000" />
       <workItem from="1517390200320" duration="16096000" />
       <workItem from="1517843312093" duration="14150000" />
-    </task>
-    <task id="LOCAL-00130" summary="added content section to footer">
-      <created>1516922020207</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1516922020207</updated>
     </task>
     <task id="LOCAL-00131" summary="Added my logos and links">
       <created>1517086296195</created>
@@ -769,11 +772,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517944805730</updated>
     </task>
-    <option name="localTasksCounter" value="179" />
+    <task id="LOCAL-00179" summary="Added dark background wrapper to music text">
+      <created>1517951741624</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1517951741624</updated>
+    </task>
+    <option name="localTasksCounter" value="180" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="244490000" />
+    <option name="totallyTimeSpent" value="244650000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -875,7 +885,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="re-added photo that was accidentally deleted" />
     <MESSAGE value="commented out React until I have a react project demo" />
     <MESSAGE value="Updated README" />
     <MESSAGE value="changed DB for Heroku" />
@@ -900,7 +909,8 @@
     <MESSAGE value="Made dark background smaller for web dev cover" />
     <MESSAGE value="Added dark background to all hobby covers for consistency" />
     <MESSAGE value="removed text-shadow from project" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed text-shadow from project" />
+    <MESSAGE value="Added dark background wrapper to music text" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added dark background wrapper to music text" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1079,13 +1089,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/images/favicon.ico" />
-    <entry file="file://$PROJECT_DIR$/app/views/photography/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52665">
@@ -1197,6 +1200,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/photography/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
           <folding />
         </state>
       </provider>
