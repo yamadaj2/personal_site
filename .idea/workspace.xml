@@ -69,8 +69,8 @@
       <file leaf-file-name="database.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -424,14 +424,7 @@
       <workItem from="1517340443582" duration="9094000" />
       <workItem from="1517386840307" duration="2103000" />
       <workItem from="1517390200320" duration="16096000" />
-      <workItem from="1517843312093" duration="3912000" />
-    </task>
-    <task id="LOCAL-00120" summary="updated ninja samurai image">
-      <created>1516668843653</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1516668843653</updated>
+      <workItem from="1517843312093" duration="4382000" />
     </task>
     <task id="LOCAL-00121" summary="Changed to text colour white">
       <created>1516716501171</created>
@@ -769,11 +762,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517844612154</updated>
     </task>
-    <option name="localTasksCounter" value="169" />
+    <task id="LOCAL-00169" summary="this DB config runs locally">
+      <created>1517933550961</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1517933550961</updated>
+    </task>
+    <option name="localTasksCounter" value="170" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233375000" />
+    <option name="totallyTimeSpent" value="233845000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -863,7 +863,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Styled photo gallery nicer" />
     <MESSAGE value="Rearranged photos" />
     <MESSAGE value="added a todo" />
     <MESSAGE value="ensured brand and mobile nav are on same line on smaller devices" />
@@ -888,7 +887,8 @@
     <MESSAGE value="updated gemfile" />
     <MESSAGE value="altered production.rb to render background images" />
     <MESSAGE value="Reverted back to working version" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reverted back to working version" />
+    <MESSAGE value="this DB config runs locally" />
+    <option name="LAST_COMMIT_MESSAGE" value="this DB config runs locally" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1185,8 +1185,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
