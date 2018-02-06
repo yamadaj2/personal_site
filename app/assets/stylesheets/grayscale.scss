@@ -378,130 +378,141 @@ a {
   background: url('developer-desk.jpg') no-repeat center center scroll;
 }
 
+.web-dev-cover-text {
+  background-color: #00000044;
+  width: 550px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
 .black-text-shadow {
-  text-shadow: $black-text-shadow;
+text-shadow: $black-text-shadow;
+}
+
+.white-text-shadow {
+text-shadow: $white-text-shadow;
 }
 
 .project-div-wrapper {
-  width: 300px;
-  margin: 30px;
-  display: inline-block;
-  vertical-align: top;
+width: 300px;
+margin: 30px;
+display: inline-block;
+vertical-align: top;
 }
 
 .project-div {
-  background: #fff;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  width: 300px;
-  margin: 20px 0;
-  position: relative;
-  display: inline-block;
-  height: 475px;
-  overflow: hidden;
-  border: 1px solid #ebebeb;
+background: #fff;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+width: 300px;
+margin: 20px 0;
+position: relative;
+display: inline-block;
+height: 475px;
+overflow: hidden;
+border: 1px solid #ebebeb;
 }
 
 .hobby-section {
-  color: white;
-  background-color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+color: white;
+background-color: black;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 }
 
 #map {
-  width: 100%;
-  height: 300px;
+width: 100%;
+height: 300px;
 }
 @media(min-width:992px) {
-  .content-section {
-    padding-top: 200px;
-    padding-bottom: 200px;
-  }
-  #map {
-    height: 350px;
-  }
+.content-section {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+#map {
+  height: 350px;
+}
 }
 
 .btn {
-  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 400;
+font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-weight: 400;
 
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  text-transform: uppercase;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+text-transform: uppercase;
 
-  border-radius: 0;
-  &:hover {
-    color: #ffffff;
-  }
+border-radius: 0;
+&:hover {
+  color: #ffffff;
+}
 }
 
 .btn-default {
-  color: #000;
+color: #000;
+background-color: $primary;
+&:hover {
+  color: #ffffff;
+  outline: none;
   background-color: $primary;
-  &:hover {
-    color: #ffffff;
-    outline: none;
-    background-color: $primary;
-  }
+}
 }
 
 ul.banner-social-buttons {
+margin-top: 15px;
+@media(max-width: 1199px) {
   margin-top: 15px;
-  @media(max-width: 1199px) {
-    margin-top: 15px;
-  }
-  @media(max-width:767px) {
-    li {
-      display: block;
+}
+@media(max-width:767px) {
+  li {
+    display: block;
 
-      margin-bottom: 20px;
-      padding: 0;
-      &:last-child {
-        margin-bottom: 0;
-      }
+    margin-bottom: 20px;
+    padding: 0;
+    &:last-child {
+      margin-bottom: 0;
     }
   }
 }
+}
 
 footer {
-  padding: 50px 0;
-  p {
-    font-size: 14px;
+padding: 50px 0;
+p {
+  font-size: 14px;
 
-    margin: 0;
-  }
+  margin: 0;
+}
 }
 
 .footer-icons {
-  margin: 15px;
+margin: 15px;
 }
 
 ::-moz-selection {
-  background: #fcfcfc;
-  background: fade-out(white, .8);
-  text-shadow: none;
+background: #fcfcfc;
+background: fade-out(white, .8);
+text-shadow: none;
 }
 
 ::selection {
-  background: #fcfcfc;
-  background: fade-out(white, .8);
-  text-shadow: none;
+background: #fcfcfc;
+background: fade-out(white, .8);
+text-shadow: none;
 }
 
 img::selection {
-  background: transparent;
+background: transparent;
 }
 
 img::-moz-selection {
-  background: transparent;
+background: transparent;
 }
 
 body {
-  -webkit-tap-highlight-color: fade-out(white, .8);
+-webkit-tap-highlight-color: fade-out(white, .8);
 }
