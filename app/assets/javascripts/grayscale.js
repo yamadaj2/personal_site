@@ -41,6 +41,17 @@
 
 })(jQuery); // End of use strict
 
+// create typewriter effect
+var typewriterText = 'Web Developer | Musician | Photographer';
+var letterIndex = 0;
+function typewriteSubHeading(){
+    if(letterIndex < typewriterText.length) {
+        document.getElementById('subheading-content').innerHTML += typewriterText.charAt(letterIndex);
+        setTimeout(typewriteSubHeading, 75)
+        letterIndex++;
+    }
+}
+
 // Google Maps Scripts
 var map = null;
 // When the window has finished loading create our google map below

@@ -158,7 +158,6 @@ a {
 
   text-align: center;
 
-  color: white;
   background: url('intro-bg.jpg') no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
@@ -188,27 +187,6 @@ a {
       }
     }
   }
-}
-
-.typewriter p {
-  overflow: hidden;
-  border-right: .15em solid transparent;
-  white-space: nowrap;
-  margin: 0 auto;
-  letter-spacing: .15em;
-  animation:
-          typing 4s steps(30, end),
-          blink-caret .5s step-end 12;
-}
-
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: $primary }
 }
 
 //TODO research ways to make these styles DRY
