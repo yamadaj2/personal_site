@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f51c835-b402-4148-ba12-a2c3ab8c010d" name="Default" comment="testing removing footer from view">
+    <list default="true" id="3f51c835-b402-4148-ba12-a2c3ab8c010d" name="Default" comment="replaced footer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/views/about/index.html.erb" afterPath="$PROJECT_DIR$/app/views/about/index.html.erb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -27,8 +26,8 @@
       <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/about/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="80" column="29" lean-forward="true" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
+            <state relative-caret-position="295">
+              <caret line="78" column="10" lean-forward="true" selection-start-line="78" selection-start-column="10" selection-end-line="78" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -181,7 +180,7 @@
       <workItem from="1518363101325" duration="11428000" />
       <workItem from="1518544033734" duration="8239000" />
       <workItem from="1518639456433" duration="4325000" />
-      <workItem from="1518819897702" duration="1119000" />
+      <workItem from="1518819897702" duration="1334000" />
     </task>
     <task id="LOCAL-00001" summary="removed unncessary color. Inherited from body">
       <created>1518365378510</created>
@@ -197,11 +196,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518823652954</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="replaced footer">
+      <created>1518824044761</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1518824044761</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25111000" />
+    <option name="totallyTimeSpent" value="25326000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1204" height="777" extended-state="6" />
@@ -237,7 +243,8 @@
     <MESSAGE value="removed unncessary color. Inherited from body" />
     <MESSAGE value="testing removing footer from view" />
     <MESSAGE value="replaced footer from view" />
-    <option name="LAST_COMMIT_MESSAGE" value="replaced footer from view" />
+    <MESSAGE value="replaced footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="replaced footer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -312,8 +319,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/about/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="80" column="29" lean-forward="true" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
+        <state relative-caret-position="295">
+          <caret line="78" column="10" lean-forward="true" selection-start-line="78" selection-start-column="10" selection-end-line="78" selection-end-column="10" />
           <folding />
         </state>
       </provider>
