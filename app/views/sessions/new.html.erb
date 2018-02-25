@@ -1,0 +1,23 @@
+<section class="content-section">
+  <%= render 'layouts/flash' %>
+  <div class="container col-lg-3">
+    <div class="row">
+      <h3 class="mx-auto">Log In</h3>
+    </div>
+    <%= form_for :user, url: '/login' do |f| %>
+      <div class="row mb-2">
+        <div class="input-group">
+          <%= f.text_field :email, placeholder: 'Email Address', class: 'form-control' %>
+        </div>
+      </div>
+      <div class="row mb-2">
+        <div class="input-group">
+          <%= f.password_field :password, placeholder: 'Password', class: 'form-control' %>
+        </div>
+      </div>
+      <div class="row mb-2">
+        <%= f.submit 'Log In', class:'btn btn-default mx-auto' %>
+      </div>
+    <% end %>
+  </div>
+</section>
