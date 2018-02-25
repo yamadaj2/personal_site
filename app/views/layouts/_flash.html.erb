@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="row mx-auto">
+    <% flash.each do |type, message| %>
+      <div class="alert alert-<%= type %>">
+        <%= message %>
+      </div>
+    <% end %>
+  </div>
+</div>
