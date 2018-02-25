@@ -421,6 +421,34 @@ a {
   }
 }
 
+#logged-in-status {
+  border-radius: 5px;
+  padding: 5px;
+  position: fixed;
+  bottom: 30px;
+  right: 10px;
+  animation-name: log-in-flag-animation;
+  -webkit-animation-name: log-in-flag-animation;
+  animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  z-index: 1;
+}
+
+#logged-in-status span, a{
+  color: white;
+  a:hover {
+    text-decoration: underline;
+    color: white;
+  }
+}
+
+@keyframes log-in-flag-animation {
+  0%   {background-color: $primary;}
+  100% {background-color: #33bbff;}
+}
+
 .btn {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 400;
