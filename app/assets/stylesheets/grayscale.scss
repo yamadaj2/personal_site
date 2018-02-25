@@ -433,7 +433,7 @@ a {
   z-index: 1;
 }
 
-#logged-in-status span, a{
+#logged-in-status span, #logged-in-status a{
   color: white;
   a:hover {
     text-decoration: underline;
