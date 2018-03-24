@@ -22,12 +22,32 @@
     <div class="row">
       <div class="col-lg-8 mx-auto">
         <h2>About Me</h2>
-        <p>Hi I'm Jonathon ( but you can call me Johnny ). I am a Web Developer based in Dublin.</p>
-        <p>I have a higher diploma in <em>Software Development</em>, graduating in 2017 awarded by Dublin Business School.
-          I also have a degree in Analytical Science, graduating in 2014 from Dublin City University.</p>
-        <p>
-          I love web development, photography and making music!
-        </p>
+        <% if Paragraph.last.present? %>
+          <p><%= Paragraph.last.text %></p>
+        <% else %>
+          <%= render 'paragraphs/defaults/default_about_paragraph' %>
+        <% end %>
+        <% if user_myself %>
+          <% if Paragraph.last.present? %>
+            <div class="btn btn-admin">
+              <%= link_to ' Update Paragraph ', edit_paragraph_path(Paragraph.last) %>
+            </div>
+            <div class="btn btn-admin">
+              <%= link_to ' Delete Paragraph ',
+                          paragraph_path(Paragraph.last),
+                          method: :delete,
+                          class: 'fa fa-trash',
+                          data: {confirm: 'Are you sure you want to delete this paragraph?'} %>
+            </div>
+          <% else %>
+            <div id="paragraph-textbox">
+              <%= render 'layouts/paragraph_new_form' %>
+            </div>
+            <span class="btn btn-admin" id="new-paragraph">
+              New Paragraph
+            </span>
+          <% end %>
+        <% end %>
         <div>
           <%= link_to '', '#development', class: 'arrow js-scroll-trigger fa fa-arrow-circle-o-down animated fa-4x' %>
         </div>
@@ -77,3 +97,4 @@
     </div>
   </div>
 </section>
+

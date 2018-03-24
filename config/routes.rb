@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   post 'login', to: 'sessions#create'
   get 'logout', to: 'sessions#destroy'
 
+  resources :paragraphs, except: [:index]
   get 'development', to: 'web_dev#index'
   get 'music', to: 'music#index'
   get 'photography', to: 'photography#index'

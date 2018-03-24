@@ -22,4 +22,5 @@
 //= require turbolinks
 //= require soundcloud-widget-api
 //= require iframe-handlers
+//= require custom-jquery
 //= require_tree .

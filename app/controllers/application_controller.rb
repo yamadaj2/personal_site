@@ -5,13 +5,15 @@ class ApplicationController < ActionController::Base
 
   add_flash_types :danger, :info, :error, :success
 
-  def current_user
-    @current_user ||= User.find(session[:user_id]) if session[:user_id]
+  def user_myself
+    @user_myself ||= User.find(1) if session[:user_id]
   end
 
-  helper_method :current_user
+  helper_method :user_myself
 
-  def authorize
-    redirect_to login_path unless current_user
+  def require_login
+    unless user_myself && user_myself.email == 'jonathon.yamada@gmail.com'
+      redirect_to root_path, danger: 'Unauthorised'
+    end
   end
 end
