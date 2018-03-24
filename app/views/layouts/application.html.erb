@@ -18,11 +18,12 @@
 
 <%= yield %>
 
-<% if current_user %>
+<% if user_myself %>
   <%= render 'layouts/logged_in_status' %>
 <% end %>
 
 <%= render 'layouts/footer' %>
 <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
 </body>
 </html>

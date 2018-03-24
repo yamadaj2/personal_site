@@ -1,5 +1,5 @@
 <div id="logged-in-status">
   <span>
-    Logged in as <%= current_user.first_name %> | <%= link_to 'Logout', logout_path, data: { confirm: 'Are you sure you want to log out?' } %>
+    Logged in as <%= user_myself.first_name %> | <%= link_to 'Logout', logout_path, data: {confirm: 'Are you sure you want to log out?' } %>
   </span>
 </div>

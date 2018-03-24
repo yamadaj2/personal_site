@@ -71,8 +71,6 @@ var ObjectFunctionString = fnToString.call( Object );
 
 var support = {};
 
-
-
 	function DOMEval( code, doc ) {
 		doc = doc || document;
 
