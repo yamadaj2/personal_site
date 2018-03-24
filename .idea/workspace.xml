@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f51c835-b402-4148-ba12-a2c3ab8c010d" name="Default" comment="§">
+    <list default="true" id="3f51c835-b402-4148-ba12-a2c3ab8c010d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -373,7 +373,7 @@
       <workItem from="1521661409867" duration="1627000" />
       <workItem from="1521663190703" duration="6355000" />
       <workItem from="1521754749560" duration="287000" />
-      <workItem from="1521883085665" duration="986000" />
+      <workItem from="1521883085665" duration="1038000" />
     </task>
     <task id="LOCAL-00001" summary="removed unncessary color. Inherited from body">
       <created>1518365378510</created>
@@ -459,11 +459,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521884313279</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added default paragraph and edit form and test defaults">
+      <created>1521884513975</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1521884513975</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96207000" />
+    <option name="totallyTimeSpent" value="96259000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1209" height="777" extended-state="6" />
@@ -508,7 +515,8 @@
     <MESSAGE value="added gimp to description" />
     <MESSAGE value="Added paragraph routes and controller and default test" />
     <MESSAGE value="added paragraph model, db and form partial" />
-    <option name="LAST_COMMIT_MESSAGE" value="added paragraph model, db and form partial" />
+    <MESSAGE value="Added default paragraph and edit form and test defaults" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added default paragraph and edit form and test defaults" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
