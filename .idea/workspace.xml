@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f51c835-b402-4148-ba12-a2c3ab8c010d" name="Default" comment="added database.yml">
-      <change beforePath="$PROJECT_DIR$/.idea/jonathon_yamada.iml" afterPath="$PROJECT_DIR$/.idea/jonathon_yamada.iml" />
+    <list default="true" id="3f51c835-b402-4148-ba12-a2c3ab8c010d" name="Default" comment="§">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/jquery.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/jquery.js" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/_variables.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/_variables.scss" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/grayscale.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/grayscale.scss" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/about_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/about_controller.rb" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
-      <change beforePath="$PROJECT_DIR$/app/views/about/index.html.erb" afterPath="$PROJECT_DIR$/app/views/about/index.html.erb" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/_logged_in_status.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_logged_in_status.html.erb" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -385,7 +373,7 @@
       <workItem from="1521661409867" duration="1627000" />
       <workItem from="1521663190703" duration="6355000" />
       <workItem from="1521754749560" duration="287000" />
-      <workItem from="1521883085665" duration="830000" />
+      <workItem from="1521883085665" duration="986000" />
     </task>
     <task id="LOCAL-00001" summary="removed unncessary color. Inherited from body">
       <created>1518365378510</created>
@@ -464,11 +452,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521884030403</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added paragraph model, db and form partial">
+      <created>1521884313279</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1521884313279</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96051000" />
+    <option name="totallyTimeSpent" value="96207000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1209" height="777" extended-state="6" />
@@ -512,7 +507,8 @@
     <MESSAGE value="on tablet screen size and less, iframes displayed as single list. Removed redundant css class" />
     <MESSAGE value="added gimp to description" />
     <MESSAGE value="Added paragraph routes and controller and default test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added paragraph routes and controller and default test" />
+    <MESSAGE value="added paragraph model, db and form partial" />
+    <option name="LAST_COMMIT_MESSAGE" value="added paragraph model, db and form partial" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
