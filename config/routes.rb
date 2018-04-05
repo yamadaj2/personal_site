@@ -4,17 +4,9 @@ Rails.application.routes.draw do
 
   root 'about#index'
 
-  post 'signup', to: 'users#create'
-
-  get 'login', to: 'sessions#new'
-  post 'login', to: 'sessions#create'
-  get 'logout', to: 'sessions#destroy'
-
-  resources :paragraphs, except: [:index]
   get 'development', to: 'web_dev#index'
   get 'music', to: 'music#index'
   get 'photography', to: 'photography#index'
-
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

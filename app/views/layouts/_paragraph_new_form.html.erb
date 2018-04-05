@@ -1,8 +1,0 @@
-<%= form_for :paragraph, url: paragraphs_path do |f| %>
-  <p>
-    <%= f.label :your_paragraph %><br>
-    <%= f.text_area :text, size: '30x10', autofocus: true %>
-  </p>
-
-  <%= f.submit 'Save Paragraph', class: 'btn btn-admin' %>
-<% end %>
