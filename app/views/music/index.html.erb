@@ -54,7 +54,6 @@
         </p>
       </div>
       <div class="col-md-6 col-sm-12">
-        <%= Date.today.strftime("%A").upcase %>
         <% case Date.today.strftime("%A").upcase %>
         <% when 'MONDAY', 'TUESDAY' %>
           <%= render 'youtube_video_1' %>
