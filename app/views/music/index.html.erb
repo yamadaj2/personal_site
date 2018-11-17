@@ -28,11 +28,11 @@
       </div>
       <div class="col-md-6 col-sm-12">
         <% case Date.today.strftime("%A").upcase %>
-        <% when 'MONDAY' || 'TUESDAY' %>
+        <% when 'MONDAY', 'TUESDAY' %>
           <%= render 'synthesia_video_1' %>
-        <% when 'WEDNESDAY' || 'THURSDAY' %>
+        <% when 'WEDNESDAY', 'THURSDAY' %>
           <%= render 'synthesia_video_1' %>
-        <% when 'FRIDAY' || 'SATURDAY' %>
+        <% when 'FRIDAY', 'SATURDAY' %>
           <%= render 'synthesia_video_1' %>
         <% when 'SUNDAY' %>
         <% else %>
@@ -54,12 +54,13 @@
         </p>
       </div>
       <div class="col-md-6 col-sm-12">
+        <%= Date.today.strftime("%A").upcase %>
         <% case Date.today.strftime("%A").upcase %>
-        <% when 'MONDAY' || 'TUESDAY' %>
+        <% when 'MONDAY', 'TUESDAY' %>
           <%= render 'youtube_video_1' %>
-        <% when 'WEDNESDAY' || 'THURSDAY' %>
+        <% when 'WEDNESDAY', 'THURSDAY' %>
           <%= render 'youtube_video_2' %>
-        <% when 'FRIDAY' || 'SATURDAY' %>
+        <% when 'FRIDAY', 'SATURDAY' %>
           <%= render 'youtube_video_3' %>
         <% when 'SUNDAY' %>
         <% else %>
@@ -73,11 +74,11 @@
       </div>
       <div class="col-md-6 col-sm-12">
         <% case Date.today.strftime("%A").upcase %>
-        <% when 'MONDAY' || 'TUESDAY' %>
+        <% when 'MONDAY', 'TUESDAY' %>
           <%= render 'soundcloud_video_1' %>
-        <% when 'WEDNESDAY' || 'THURSDAY' %>
+        <% when 'WEDNESDAY', 'THURSDAY' %>
           <%= render 'soundcloud_video_2' %>
-        <% when 'FRIDAY' || 'SATURDAY' %>
+        <% when 'FRIDAY', 'SATURDAY' %>
           <%= render 'soundcloud_video_3' %>
         <% when 'SUNDAY' %>
         <% else %>
