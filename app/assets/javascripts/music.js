@@ -1,9 +1,10 @@
-var scIframeElement = document.querySelector('#sc-player');
-var scTrack = SC.Widget(scIframeElement);
-
 $(function(){
-  console.log('music js here');
+  if (('#sc-player').length > 0){
+    var scIframeElement = document.querySelector('#sc-player');
+    var scTrack = SC.Widget(scIframeElement);
+  }
 
+  console.log('music js here');
   playSoundcloudVideo();
 
   function playSynthesiaVideo() {
@@ -12,12 +13,10 @@ $(function(){
 
   function pauseSynthesiaVideo() {
     console.log('clickSynthesiaVideo called');
-
   }
 
   function pauseYouTubeVideo() {
     console.log('clickYouTubeVideo called');
-
   }
 
   function playSoundcloudVideo() {
