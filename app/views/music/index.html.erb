@@ -35,6 +35,7 @@
         <% when 'FRIDAY', 'SATURDAY' %>
           <%= render 'synthesia_video_1' %>
         <% when 'SUNDAY' %>
+          <%= render 'synthesia_video_1' %>
         <% else %>
           <%= render 'synthesia_video_1' %>
         <% end %>
@@ -62,6 +63,7 @@
         <% when 'FRIDAY', 'SATURDAY' %>
           <%= render 'youtube_video_3' %>
         <% when 'SUNDAY' %>
+          <%= render 'youtube_video_2' %>
         <% else %>
           <%= render 'youtube_video_3' %>
         <% end %>
@@ -80,6 +82,7 @@
         <% when 'FRIDAY', 'SATURDAY' %>
           <%= render 'soundcloud_video_3' %>
         <% when 'SUNDAY' %>
+          <%= render 'soundcloud_video_2' %>
         <% else %>
           <%= render 'soundcloud_video_3' %>
         <% end %>
@@ -95,3 +98,23 @@
 <div class="text-center">
   <%= link_to 'Back', root_path, class: "btn btn-default btn-lg" %>
 </div>
+
+<!--<script>-->
+<!--  $(document).ready(function(){-->
+<!--    alert('embedded script');-->
+<!--    setInterval(clickSoundcloudVideo(), 500);-->
+
+<!--    // function clickSynthesiaVideo() {-->
+<!--    //   $('.ytp-embed').click();-->
+<!--    // }-->
+<!--    //-->
+<!--    // function clickYouTubeVideo() {-->
+<!--    //   $('.html5-video-player').click();-->
+<!--    // }-->
+<!--    //-->
+<!--    function clickSoundcloudVideo() {-->
+<!--      console.log('clickSoundcloudVideo');-->
+<!--      $('.playButton__play').click();-->
+<!--    }-->
+<!--  })-->
+<!--</script>-->
