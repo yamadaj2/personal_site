@@ -17,5 +17,5 @@
 /tmp
 
 #JY
-/.idea/*
+.idea/*
 /config/database.yml
